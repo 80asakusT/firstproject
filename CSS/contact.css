@@ -1,0 +1,236 @@
+/*menu*/
+header{
+    background:#0066ff;
+    overflow: hidden;
+}
+.header-crevea{
+    text-decoration: none;
+}
+.dropdown-content{
+    float:right;
+}
+.nav-link:hover{
+    background-color:#0052cc;
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+}
+.we-are{
+    margin-bottom:40px;
+    width: 100%;
+}
+/*footer*/
+footer{
+    background:black;
+    color:white;
+    margin:0 auto;
+}
+.footer1{
+    width:80%;
+}
+.footer2{
+    width:100%;
+    height:30px;
+    background-color:black;
+    border-top: 3px solid grey;
+    text-align:center;
+    padding-top:5px;
+}
+.crevea,.categories,.language,.gonfu{ 
+    width:55%;
+    padding-top:20px;
+    margin-left:40px;
+}
+.categories ul,.language ul{
+    list-style-type: none;
+    padding-left:0;
+}
+.gonfu-email{
+    background-color:black;
+    height:25px;
+    border-color:black;
+    color:white;
+    width:70%;
+}
+.gonfu button{
+    width:70px;
+    height:25px;
+}
+.gonfu{
+    height:142px;
+    border-bottom: 2px solid #bfbfbf; 
+    margin-right:0;
+}
+/*content*/
+.title1, .title2{
+    height:40px;
+    margin:0 auto;
+}
+.title1{
+    width:9.8rem;
+}
+.title2{
+    width:8.5rem;
+}
+.blue-line{
+    height:3px;
+    width:60px;
+    background-color: #3399ff;
+    margin:30px auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.img img{
+    width:100%;
+    height: 300px;
+}
+.tags{
+    float:left;
+    width:20%;
+}
+.blanks{
+    float:right;
+    width:75%;
+    height:40px;
+}
+#blanks2{
+    height:80px;
+}
+.button{
+    background-color:#ffad33;
+    color: white;
+    height: 48px;
+    width: 170px;
+    border:none;
+    border-radius: 5px;
+    float:right;   
+}
+@media only screen and (max-width:420px){  
+    footer{
+        background:black;
+        color:white;
+        margin:0 auto;
+    }
+    .footer1{
+        height:650px;
+        width:100%;
+    }
+    .footer2{
+        width:100%;
+        height:30px;
+        background-color:black;
+        border-top: 3px solid grey;
+        text-align:center;
+        padding-top:5px;
+    }
+    .crevea,.categories,.language,.gonfu{ 
+        width:80%;
+        padding-top:20px;
+        margin-left:40px;
+    }
+    .crevea{height:190px;}
+    .categories{height:170px;}
+    .language{height:110px}
+    .gonfu{height:150px;}
+    .content{
+        height:1200px;
+        width:90%;
+        margin:0 auto;
+    }
+    .left,.right{
+        width:100%;
+        margin:0 auto;
+        height:450px;
+    }
+    .right{
+        height:720px;
+        float:left;
+    }
+    .contact{
+        list-style-type: none;
+        width:100%;
+        height:110px;
+    }
+    .infos{
+        height:550px;
+        width:100%;
+        padding-left: 0;
+    }
+    .tags,.blanks{width:100%;}
+    .blanks{
+        height:45px;
+        border-radius:5px;
+    }
+}
+@media only screen and (min-width:568px){
+    header{padding: 0 auto;}
+    .footer1{height:650px;}
+    .left,.right{
+        width:100%;
+        height:360px;
+    }
+    .right{height:800px;}
+    .contact{
+        list-style-type: none;
+        width:100%;
+        height:110px;
+    }
+    .infos{
+        height:550px;
+        width:100%;
+    }
+}
+@media only screen and (min-width:1024px){
+    .we-img{
+        height:694px;
+        width:100%;
+    }
+    header{padding:5px 0 5px 200px;}
+    .footer1{
+        height:250px;
+        margin:0 auto;
+        width:80%;
+    }
+    .footer2{
+        width:100%;
+        height:30px;
+    }
+    .crevea,.categories,.language{
+        width:18%;
+        height:180px;
+        float:left;
+    }
+    .crevea{
+        width:22%;
+    }
+    .gonfu{
+        height:200px;
+        width:20%;
+        float:left;
+    }
+    .gonfu-email{width:50%;}
+    .content{
+        width:80%;
+        margin:0 auto;
+        height:500px;
+    }
+    .left,.right{
+        width: 50%;
+        height: 750px;
+    }
+    .contact{
+        height:6.5rem;
+        list-style-type:initial;
+    }
+    .infos{
+        height:520px;
+    }
+}@media only screen and (min-width:1900px){
+    .gonfu{height:150px;}
+}
+
+

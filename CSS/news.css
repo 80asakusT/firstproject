@@ -1,0 +1,305 @@
+/*menu*/
+header{
+    background:#0066ff;
+    overflow: hidden;
+}
+#home{
+    color:#ff9933;
+}
+.header-crevea{
+    text-decoration: none;
+}
+.dropdown-content{
+    float:right;
+}
+.nav-link:hover{
+    background-color:#0052cc;
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+}
+.we-are{
+    margin-bottom:40px;
+    width:100%;
+}
+/*footer*/
+footer{
+    background:black;
+    color:white;
+    margin:0 auto;
+}
+.footer1{
+    width:80%;
+}
+.footer2{
+    width:100%;
+    height:30px;
+    background-color:black;
+    border-top: 3px solid grey;
+    text-align:center;
+    padding-top:5px;
+}
+.crevea,.categories,.language,.gonfu{ 
+    width:55%;
+    padding-top:20px;
+    margin-left:40px;
+}
+.categories ul,.language ul{
+    list-style-type: none;
+    padding-left:0;
+}
+.gonfu-email{
+    background-color:black;
+    height:25px;
+    border-color:black;
+    color:white;
+    width:70%;
+}
+.gonfu button{
+    width:70px;
+    height:25px;
+}
+.gonfu{
+    height:142px;
+    border-bottom: 2px solid #bfbfbf; 
+    margin-right:0;
+}
+/*content*/
+.title{
+    height:40px;
+    width:80px;
+    margin:0 auto;
+}
+.blue-line{
+    height:3px;
+    width:60px;
+    background-color: #3399ff;
+    margin:30px auto;
+}
+.new-img{
+    height:300px;
+    width: 100%;  
+}
+.new1-text,.new2-text,.new3-text,.readmore{
+    padding-left: 10px;
+}
+.readmore{
+    color:black;
+    text-decoration: none;
+}
+.new1,.new2,.new3{
+    border:2px solid #b3b3b3;
+}
+.content1{
+    width:70%;
+    float:left;
+    height:100%;
+}
+.content2{
+    width:25%;
+    float:right;
+    height:100%;
+}
+.post-img{
+    width:40%;
+    height:100%;
+    float:left;
+    padding: 19px 16px;
+}
+.news-text{
+    width:60%;
+    height:100%;
+    float:left;
+}
+.board-title{
+    width:100%;
+    height:50px;
+    background-color: #0066ff;
+    padding:12px 69px;
+    color:white;
+}
+.posts{
+    width:100%;
+    height:140px;
+    background-color: #d9d9d9;
+    border-bottom:2px solid #999999;
+}
+.news-text h5{
+    margin-top:20px;
+}
+.post-img img{
+    width:5rem;
+    height:6rem;
+}
+@media only screen and (max-width:420px){ 
+    .we-are{width:100%;}
+    .footer1{
+        height:650px;
+        width:100%;
+    }
+    .footer2{
+        width:100%;
+        height:30px;
+        background-color:black;
+        border-top: 3px solid grey;
+        text-align:center;
+        padding-top:5px;
+    }
+    .crevea,.categories,.language,.gonfu{width:80%;}
+    .crevea{height:200px;}
+    .categories{height:170px;}
+    .language{height:100px}
+    .gonfu{height:165px;}
+    .gonfu-email{width:60%;}
+    .content{
+        height:2500px;
+        width:80%;
+        margin:0 auto; 
+    }
+    .content1{
+        width:100%;
+        height:1700px;
+    }
+    .content2{
+        width:100%;
+        height:750px;
+    }
+    .new1, .new2, .new3{
+        width:100%;
+        margin-bottom:50px;
+    }
+    .new1,.new2{height:430px;}
+    .new3{height:650px;}
+}
+@media only screen and (min-width:568px){
+    header{
+        width:100%;
+        padding: 0 auto;
+    }
+    .we-are{width:100%;}
+    .footer1{height:640px;}
+    .content{
+        height:2050px;
+        width:80%;
+        margin:0 auto;
+    }
+    .content1,.content2{
+        width:100%;
+        height:1250px;
+    }
+    .content2{height:750px;}
+    .new1, .new2, .new3{
+        width:45%;
+        height:450px;
+        float:left;
+        margin-bottom:50px;
+    }
+    .new2{float:right;}
+    .new3{height:700px;}
+    .new1 img, .new2 img, .new3 img{width:100%;}
+    .post-img{width:20%;} 
+    .post-img img{
+        height:6rem;
+        width:3.5rem;
+    }
+    .news-text{width:80%;} 
+}
+@media only screen and (min-width:1024px){
+    .we-img{
+        height:694px;
+        width:100%;
+    }
+    header{padding:5px 0 5px 200px;}
+    .footer1{
+        height:250px;
+        margin:0 auto;
+        width:80%;
+    }
+    .footer2{
+        width:100%;
+        height:30px;
+    }
+    .crevea,.categories,.language{
+        width:18%;
+        height:180px;
+        float:left;
+    }
+    .crevea{
+        width:22%;
+    }
+    .gonfu{
+        height:200px;
+        width:20%;
+        float:left;
+    }
+    .gonfu-email{width:50%;}
+    .content{
+        height:1450px;
+        width:60%;
+        margin:0 auto;
+    }
+    .content1{
+        width:65%;
+        float:left;
+        height:100%;
+    }
+    .content2{
+        width:30%;
+        float:right;
+        height:100%;
+    }
+    .board-title{padding:14px 48px;}
+    .posts{height:190px;}
+    .post-img{
+        width:40%;
+        height:100%;
+        float:left;
+        padding: 40px 9px;
+    }
+    .news-text{
+        width:60%;
+        height:100%;
+        float:left;
+    }
+    .new1, .new2{
+        width:45%;
+        height:490px;
+        float:left;
+        margin-right:10px;  
+    }
+    .new2{float:right;}
+    .new3{
+        width:45%;
+        height:850px;
+        float:left;
+    }
+    .post-img img{
+        width:3.5rem;
+        height:6rem;
+    }
+}
+@media only screen and (min-width:1900px){
+    .new1, .new2{
+        width:48%;
+        height:420px;
+        float:left;
+        margin-right:10px;  
+    }
+    .new3{
+        width:48%;
+        height:590px;
+        float:left;
+    }
+    .content{height:1100px;}
+    .content1{width:70%;}
+    .content2{width:25%;}
+    .board-title{padding:12px 98px;}
+    .post-img{padding:19px 16px;}
+    .post-img img{
+        width:5rem;
+        height:6rem;
+    }
+    .posts{height:140px;}
+    .gonfu{height:150px;}
+}
+
